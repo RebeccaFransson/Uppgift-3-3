@@ -1,13 +1,21 @@
 
-#container{
-    width:920px;
-    background-color: #51473d;
+body{
+    background-color:#eae7d2;
+    width:720px;
+    border:5px;
+    border-color:pink;
     margin:auto;
+}
+#container{
+    background-color: #51473d;
+    
     
 }
 
 #topbar{
-    width: 920px;
+    font-style: oblique;
+    color:#797066;
+    width: 720px;
     height:272px;
     text-align:right;
     background-image: url('pics/coffey.jpg');
@@ -19,7 +27,7 @@
 
 #menu {
     width: 920px;
-    height:52px;
+    height:47px;
 }
 
 #menu li {
@@ -71,19 +79,60 @@ a:active {
 
 #content{
     background-color:#eae7d2;
-    margin-top:-21px;
     padding-left:15px;
 }
 #maincontent{
     float:left;
-    width: 600px;
+    width: 400px;
+    background-color:#eae7d2;
+    font-family:Times New Roman;
+    color:#797066;
+    font-size:20px;
+    line-height: 150%;
+    padding-right:10px;
+
+}
+ #maincontent img{
+    float:left;
+    padding-right:20px;
 }
 
 #subcontent{
     float:left;
-    width: 300px;
+    width: 230px;
+    border-left:3px dotted #51473d;
+    border-color:none;
+    padding-left:23px;
+    background-color:#eae7d2;
+    margin-top:20px;
+    line-height: 150%;
+    color:#797066;
+}
+#subcontent p
+{
+    word-spacing:3px;
+    font-family:verdana;
+    font-size:12px;
+}
+
+ #subcontent h2 {
+    font-size:16px;
+    padding-top:30px;
+}
+
+#subcontent li {
+    list-style: none; 
+    float:left;
+    
+}
+#subcontent a {
+    text-decoration:none;
+     color:#797066;
 }
 
 #bottomcontent{
     float:left;
+    width:920px;
+    font-style: oblique;
+    color:#797066;
 }
